@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-	    Employee mario = new Employee(1,"Mario", 24.50, LocalDate.of(2000,12,1));
+	Employee mario = new Employee(1,"Mario", 24.50, LocalDate.of(2000,12,1));
         Employee luigi = new Employee(2, "Luigi", 19.50, LocalDate.of(2002,4,15));
         Employee peach = new Employee(3, "Peach", 50.00, LocalDate.of(2010,6,3));
         List<Employee> employees = new ArrayList<>();
